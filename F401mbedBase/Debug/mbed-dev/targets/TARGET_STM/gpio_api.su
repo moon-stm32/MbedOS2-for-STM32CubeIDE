@@ -1,0 +1,6 @@
+pin_device.h:82:22:LL_GPIO_SetPinMode	40	static,ignoring_inline_asm
+gpio_api.c:39:15:Set_GPIO_Clock	48	static
+gpio_api.c:116:10:gpio_set	16	static
+gpio_api.c:126:6:gpio_init	24	static
+gpio_api.c:151:6:gpio_mode	16	static
+gpio_api.c:156:13:gpio_dir	16	static

@@ -1,0 +1,14 @@
+Timer.cpp:24:1:mbed::Timer::Timer()	16	static
+Timer.cpp:29:1:mbed::Timer::Timer(const ticker_data_t*)	16	static
+Timer.cpp:37:1:mbed::Timer::~Timer()	16	static
+Timer.cpp:49:6:void mbed::Timer::start()	16	static
+Timer.cpp:62:6:void mbed::Timer::stop()	24	static
+Timer.cpp:75:5:int mbed::Timer::read_us()	16	static
+Timer.cpp:80:7:float mbed::Timer::read()	16	static
+Timer.cpp:85:5:int mbed::Timer::read_ms()	16	static
+Timer.cpp:90:16:us_timestamp_t mbed::Timer::read_high_resolution_us()	32	static
+Timer.cpp:98:16:us_timestamp_t mbed::Timer::slicetime()	32	static
+Timer.cpp:109:6:void mbed::Timer::reset()	16	static
+Timer.cpp:117:1:mbed::Timer::operator float()	16	static
+NonCopyable.h:155:5:mbed::NonCopyable<T>::NonCopyable() [with T = mbed::Timer]	8	static
+NonCopyable.h:159:5:mbed::NonCopyable<T>::~NonCopyable() [with T = mbed::Timer]	8	static

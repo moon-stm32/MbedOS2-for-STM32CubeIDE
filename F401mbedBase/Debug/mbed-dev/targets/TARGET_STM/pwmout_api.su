@@ -1,0 +1,10 @@
+pwmout_api.c:42:6:pwmout_init	56	static
+pwmout_api.c:166:6:pwmout_free	16	static
+pwmout_api.c:172:6:pwmout_write	48	static
+pwmout_api.c:231:7:pwmout_read	24	static
+pwmout_api.c:240:6:pwmout_period	16	static
+pwmout_api.c:245:6:pwmout_period_ms	16	static
+pwmout_api.c:250:6:pwmout_period_us	56	static
+pwmout_api.c:328:6:pwmout_pulsewidth	16	static
+pwmout_api.c:333:6:pwmout_pulsewidth_ms	16	static
+pwmout_api.c:338:6:pwmout_pulsewidth_us	24	static

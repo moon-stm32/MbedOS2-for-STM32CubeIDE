@@ -1,0 +1,25 @@
+gpio_object.h:58:20:void gpio_write(gpio_t*, int)	8	static
+gpio_object.h:71:19:int gpio_read(gpio_t*)	8	static
+DigitalOut.h:53:5:mbed::DigitalOut::DigitalOut(PinName)	16	static
+DigitalOut.h:75:10:void mbed::DigitalOut::write(int)	16	static
+DigitalOut.h:87:9:int mbed::DigitalOut::read()	16	static
+PlatformMutex.h:36:5:PlatformMutex::PlatformMutex()	16	static
+PlatformMutex.h:41:5:PlatformMutex::~PlatformMutex()	16	static
+PlatformMutex.h:46:10:void PlatformMutex::lock()	8	static
+PlatformMutex.h:51:10:void PlatformMutex::unlock()	8	static
+BusOut.cpp:21:1:mbed::BusOut::BusOut(PinName, PinName, PinName, PinName, PinName, PinName, PinName, PinName, PinName, PinName, PinName, PinName, PinName, PinName, PinName, PinName)	64	static
+BusOut.cpp:35:1:mbed::BusOut::BusOut(PinName*)	24	static
+BusOut.cpp:47:1:mbed::BusOut::~BusOut()	24	static
+BusOut.cpp:47:1:virtual mbed::BusOut::~BusOut()	16	static
+BusOut.cpp:57:6:void mbed::BusOut::write(int)	24	static
+BusOut.cpp:68:5:int mbed::BusOut::read()	24	static
+BusOut.cpp:81:9:mbed::BusOut& mbed::BusOut::operator=(int)	16	static
+BusOut.cpp:88:9:mbed::BusOut& mbed::BusOut::operator=(mbed::BusOut&)	16	static
+BusOut.cpp:95:13:mbed::DigitalOut& mbed::BusOut::operator[](int)	8	static
+BusOut.cpp:103:1:mbed::BusOut::operator int()	16	static
+BusOut.cpp:109:6:virtual void mbed::BusOut::lock()	16	static
+BusOut.cpp:114:6:virtual void mbed::BusOut::unlock()	16	static
+NonCopyable.h:155:5:mbed::NonCopyable<T>::NonCopyable() [with T = PlatformMutex]	8	static
+NonCopyable.h:159:5:mbed::NonCopyable<T>::~NonCopyable() [with T = PlatformMutex]	8	static
+NonCopyable.h:155:5:mbed::NonCopyable<T>::NonCopyable() [with T = mbed::BusOut]	8	static
+NonCopyable.h:159:5:mbed::NonCopyable<T>::~NonCopyable() [with T = mbed::BusOut]	8	static

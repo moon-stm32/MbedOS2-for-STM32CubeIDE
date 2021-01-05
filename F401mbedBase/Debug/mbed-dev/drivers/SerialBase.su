@@ -1,0 +1,56 @@
+new:168:14:void* operator new(std::size_t, void*)	16	static
+SerialBase.cpp:25:1:mbed::SerialBase::SerialBase(PinName, PinName, int)	56	static
+SerialBase.cpp:44:6:void mbed::SerialBase::baud(int)	16	static
+SerialBase.cpp:52:6:void mbed::SerialBase::format(int, mbed::SerialBase::Parity, int)	24	static
+SerialBase.cpp:59:5:int mbed::SerialBase::readable()	24	static
+SerialBase.cpp:68:5:int mbed::SerialBase::writeable()	24	static
+SerialBase.cpp:76:6:void mbed::SerialBase::attach(mbed::Callback<void()>, mbed::SerialBase::IrqType)	48	static
+SerialBase.cpp:100:6:static void mbed::SerialBase::_irq_handler(uint32_t, SerialIrq)	24	static
+SerialBase.cpp:108:5:int mbed::SerialBase::_base_getc()	16	static
+SerialBase.cpp:114:5:int mbed::SerialBase::_base_putc(int)	16	static
+SerialBase.cpp:121:6:void mbed::SerialBase::send_break()	16	static
+SerialBase.cpp:138:6:virtual void mbed::SerialBase::lock()	16	static
+SerialBase.cpp:143:6:virtual void mbed::SerialBase::unlock()	16	static
+SerialBase.cpp:148:1:mbed::SerialBase::~SerialBase()	48	static
+SerialBase.cpp:148:1:virtual mbed::SerialBase::~SerialBase()	16	static
+SerialBase.cpp:159:6:void mbed::SerialBase::set_flow_control(mbed::SerialBase::Flow, PinName, PinName)	32	static
+SerialBase.cpp:186:5:int mbed::SerialBase::write(const uint8_t*, int, const event_callback_t&, int)	32	static
+SerialBase.cpp:195:5:int mbed::SerialBase::write(const uint16_t*, int, const event_callback_t&, int)	32	static
+SerialBase.cpp:204:6:void mbed::SerialBase::start_write(const void*, int, char, const event_callback_t&, int)	56	static
+SerialBase.cpp:213:6:void mbed::SerialBase::abort_write()	40	static
+SerialBase.cpp:223:6:void mbed::SerialBase::abort_read()	40	static
+SerialBase.cpp:233:5:int mbed::SerialBase::set_dma_usage_tx(DMAUsage)	16	static
+SerialBase.cpp:242:5:int mbed::SerialBase::set_dma_usage_rx(DMAUsage)	16	static
+SerialBase.cpp:251:5:int mbed::SerialBase::read(uint8_t*, int, const event_callback_t&, int, unsigned char)	40	static
+SerialBase.cpp:261:5:int mbed::SerialBase::read(uint16_t*, int, const event_callback_t&, int, unsigned char)	40	static
+SerialBase.cpp:271:6:void mbed::SerialBase::start_read(void*, int, char, const event_callback_t&, int, unsigned char)	56	static
+SerialBase.cpp:279:6:void mbed::SerialBase::interrupt_handler_asynch()	32	static
+NonCopyable.h:155:5:mbed::NonCopyable<T>::NonCopyable() [with T = mbed::SerialBase]	16	static
+NonCopyable.h:159:5:mbed::NonCopyable<T>::~NonCopyable() [with T = mbed::SerialBase]	16	static
+CThunk.h:92:12:CThunk<T>::CThunk(T*) [with T = mbed::SerialBase]	32	static
+CThunk.h:102:5:CThunk<T>::~CThunk() [with T = mbed::SerialBase]	16	static
+Callback.h:706:5:mbed::Callback<R(A0)>::Callback(R (*)(A0)) [with R = void; A0 = int]	16	static
+Callback.h:904:5:mbed::Callback<R(A0)>::~Callback() [with R = void; A0 = int]	16	static
+Callback.h:82:5:mbed::Callback<R()>::Callback(R (*)()) [with R = void]	16	static
+Callback.h:280:5:mbed::Callback<R()>::~Callback() [with R = void]	16	static
+Callback.h:555:15:mbed::Callback<R()>& mbed::Callback<R()>::operator=(const mbed::Callback<R()>&) [with R = void]	16	static
+Callback.h:582:5:mbed::Callback<R()>::operator bool() const [with R = void]	16	static
+Callback.h:575:7:R mbed::Callback<R()>::operator()() const [with R = void]	16	static
+Callback.h:94:5:mbed::Callback<R()>::Callback(const mbed::Callback<R()>&) [with R = void]	16	static
+Callback.h:1179:15:mbed::Callback<R(A0)>& mbed::Callback<R(A0)>::operator=(const mbed::Callback<R(A0)>&) [with R = void; A0 = int]	16	static
+CThunk.h:132:17:void CThunk<T>::callback(CThunk<T>::CCallbackSimple) [with T = mbed::SerialBase]	24	static
+CThunk.h:147:21:uint32_t CThunk<T>::entry() [with T = mbed::SerialBase]	16	static
+Callback.h:1206:5:mbed::Callback<R(A0)>::operator bool() const [with R = void; A0 = int]	16	static
+Callback.h:1191:7:R mbed::Callback<R(A0)>::call(A0) const [with R = void; A0 = int]	16	static
+CThunk.h:203:17:void CThunk<T>::init(T*, CThunk<T>::CCallback, void*) [with T = mbed::SerialBase]	24	static,ignoring_inline_asm
+Callback.h:1257:10:void mbed::Callback<R(A0)>::generate(const F&) [with F = void (*)(int); R = void; A0 = int]	16	static
+Callback.h:632:10:void mbed::Callback<R()>::generate(const F&) [with F = void (*)(); R = void]	16	static
+Callback.h:567:7:R mbed::Callback<R()>::call() const [with R = void]	16	static
+Callback.h:718:5:mbed::Callback<R(A0)>::Callback(const mbed::Callback<R(A0)>&) [with R = void; A0 = int]	16	static
+CThunk.h:194:17:static void CThunk<T>::trampoline(T*, void*, void (T::**)(void*)) [with T = mbed::SerialBase]	24	static
+Callback.h:1274:14:static R mbed::Callback<R(A0)>::function_call(const void*, A0) [with F = void (*)(int); R = void; A0 = int]	16	static
+Callback.h:1280:17:static void mbed::Callback<R(A0)>::function_move(void*, const void*) [with F = void (*)(int); R = void; A0 = int]	16	static
+Callback.h:1286:17:static void mbed::Callback<R(A0)>::function_dtor(void*) [with F = void (*)(int); R = void; A0 = int]	16	static
+Callback.h:649:14:static R mbed::Callback<R()>::function_call(const void*) [with F = void (*)(); R = void]	16	static
+Callback.h:655:17:static void mbed::Callback<R()>::function_move(void*, const void*) [with F = void (*)(); R = void]	16	static
+Callback.h:661:17:static void mbed::Callback<R()>::function_dtor(void*) [with F = void (*)(); R = void]	16	static

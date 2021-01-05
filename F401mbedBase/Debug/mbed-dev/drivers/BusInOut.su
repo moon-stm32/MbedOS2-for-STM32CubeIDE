@@ -1,0 +1,31 @@
+gpio_object.h:58:20:void gpio_write(gpio_t*, int)	16	static
+gpio_object.h:71:19:int gpio_read(gpio_t*)	16	static
+DigitalInOut.h:39:5:mbed::DigitalInOut::DigitalInOut(PinName)	16	static
+DigitalInOut.h:63:10:void mbed::DigitalInOut::write(int)	16	static
+DigitalInOut.h:75:9:int mbed::DigitalInOut::read()	16	static
+DigitalInOut.h:83:10:void mbed::DigitalInOut::output()	16	static
+DigitalInOut.h:92:10:void mbed::DigitalInOut::input()	16	static
+DigitalInOut.h:103:10:void mbed::DigitalInOut::mode(PinMode)	16	static
+PlatformMutex.h:36:5:PlatformMutex::PlatformMutex()	16	static
+PlatformMutex.h:41:5:PlatformMutex::~PlatformMutex()	16	static
+PlatformMutex.h:46:10:void PlatformMutex::lock()	16	static
+PlatformMutex.h:51:10:void PlatformMutex::unlock()	16	static
+BusInOut.cpp:21:1:mbed::BusInOut::BusInOut(PinName, PinName, PinName, PinName, PinName, PinName, PinName, PinName, PinName, PinName, PinName, PinName, PinName, PinName, PinName, PinName)	72	static
+BusInOut.cpp:35:1:mbed::BusInOut::BusInOut(PinName*)	32	static
+BusInOut.cpp:47:1:mbed::BusInOut::~BusInOut()	24	static
+BusInOut.cpp:47:1:virtual mbed::BusInOut::~BusInOut()	16	static
+BusInOut.cpp:57:6:void mbed::BusInOut::write(int)	24	static
+BusInOut.cpp:68:5:int mbed::BusInOut::read()	24	static
+BusInOut.cpp:81:6:void mbed::BusInOut::output()	24	static
+BusInOut.cpp:92:6:void mbed::BusInOut::input()	24	static
+BusInOut.cpp:103:6:void mbed::BusInOut::mode(PinMode)	24	static
+BusInOut.cpp:114:11:mbed::BusInOut& mbed::BusInOut::operator=(int)	16	static
+BusInOut.cpp:121:11:mbed::BusInOut& mbed::BusInOut::operator=(mbed::BusInOut&)	16	static
+BusInOut.cpp:128:15:mbed::DigitalInOut& mbed::BusInOut::operator[](int)	16	static
+BusInOut.cpp:136:1:mbed::BusInOut::operator int()	16	static
+BusInOut.cpp:142:6:virtual void mbed::BusInOut::lock()	16	static
+BusInOut.cpp:147:6:virtual void mbed::BusInOut::unlock()	16	static
+NonCopyable.h:155:5:mbed::NonCopyable<T>::NonCopyable() [with T = PlatformMutex]	16	static
+NonCopyable.h:159:5:mbed::NonCopyable<T>::~NonCopyable() [with T = PlatformMutex]	16	static
+NonCopyable.h:155:5:mbed::NonCopyable<T>::NonCopyable() [with T = mbed::BusInOut]	16	static
+NonCopyable.h:159:5:mbed::NonCopyable<T>::~NonCopyable() [with T = mbed::BusInOut]	16	static

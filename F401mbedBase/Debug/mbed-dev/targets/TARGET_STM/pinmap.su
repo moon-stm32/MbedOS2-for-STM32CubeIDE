@@ -1,0 +1,12 @@
+pin_device.h:72:22:LL_GPIO_SetAFPin_0_7	40	static,ignoring_inline_asm
+pin_device.h:77:22:LL_GPIO_SetAFPin_8_15	40	static,ignoring_inline_asm
+pin_device.h:82:22:LL_GPIO_SetPinMode	40	static,ignoring_inline_asm
+pin_device.h:86:26:LL_GPIO_GetPinMode	16	static
+pin_device.h:90:22:LL_GPIO_SetPinPull	40	static,ignoring_inline_asm
+pin_device.h:94:22:LL_GPIO_SetPinOutputType	24	static
+pin_device.h:98:22:LL_GPIO_SetPinSpeed	40	static,ignoring_inline_asm
+pin_device.h:108:20:stm_pin_DisconnectDebug	16	static
+pin_device.h:113:20:stm_pin_PullConfig	24	static
+pin_device.h:128:20:stm_pin_SetAFPin	32	static
+pinmap.c:60:6:pin_function	40	static
+pinmap.c:134:6:pin_mode	32	static

@@ -1,0 +1,13 @@
+core_cm4.h:1677:22:__NVIC_EnableIRQ	16	static
+core_cm4.h:1713:22:__NVIC_DisableIRQ	16	static,ignoring_inline_asm
+core_cm4.h:1751:22:__NVIC_SetPendingIRQ	16	static
+rtc_api.c:47:6:rtc_init	80	static
+rtc_api.c:131:6:rtc_free	4	static
+rtc_api.c:195:8:rtc_read	72	static
+rtc_api.c:238:6:rtc_write	80	static
+rtc_api.c:298:5:rtc_isenabled	4	static
+rtc_api.c:315:13:RTC_IRQHandler	8	static
+rtc_api.c:342:10:rtc_read_lp	64	static
+rtc_api.c:374:6:rtc_set_wake_up_timer	24	static
+rtc_api.c:401:6:rtc_fire_interrupt	8	static
+rtc_api.c:410:6:rtc_deactivate_wake_up_timer	8	static

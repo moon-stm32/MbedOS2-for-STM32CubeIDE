@@ -1,0 +1,2 @@
+cmsis_nvic.c:36:6:NVIC_SetVector	32	static
+cmsis_nvic.c:52:10:NVIC_GetVector	24	static

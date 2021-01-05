@@ -1,0 +1,10 @@
+Ticker.h:149:13:mbed::Ticker::~Ticker()	16	static
+Ticker.h:149:13:virtual mbed::Ticker::~Ticker()	16	static
+Timeout.cpp:20:6:virtual void mbed::Timeout::handler()	32	static
+NonCopyable.h:159:5:mbed::NonCopyable<T>::~NonCopyable() [with T = mbed::Ticker]	16	static
+Callback.h:280:5:mbed::Callback<R()>::~Callback() [with R = void]	16	static
+Callback.h:94:5:mbed::Callback<R()>::Callback(const mbed::Callback<R()>&) [with R = void]	16	static
+Callback.h:567:7:R mbed::Callback<R()>::call() const [with R = void]	16	static
+Timeout.h:57:7:mbed::Timeout::~Timeout()	16	static
+Timeout.h:57:7:virtual mbed::Timeout::~Timeout()	16	static
+NonCopyable.h:159:5:mbed::NonCopyable<T>::~NonCopyable() [with T = mbed::Timeout]	16	static

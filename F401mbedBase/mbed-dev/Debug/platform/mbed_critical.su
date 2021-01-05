@@ -1,0 +1,17 @@
+mbed_critical.c:48:6:core_util_are_interrupts_enabled	0	static,ignoring_inline_asm
+mbed_critical.c:57:6:core_util_is_isr_active	0	static,ignoring_inline_asm
+mbed_critical.c:73:6:core_util_in_critical_section	0	static
+mbed_critical.c:78:6:core_util_critical_section_enter	8	static
+mbed_critical.c:93:6:core_util_critical_section_exit	0	static
+mbed_critical.c:119:6:core_util_atomic_cas_u8	4	static,ignoring_inline_asm
+mbed_critical.c:132:6:core_util_atomic_cas_u16	4	static,ignoring_inline_asm
+mbed_critical.c:146:6:core_util_atomic_cas_u32	4	static,ignoring_inline_asm
+mbed_critical.c:159:9:core_util_atomic_incr_u8	0	static,ignoring_inline_asm
+mbed_critical.c:168:10:core_util_atomic_incr_u16	0	static,ignoring_inline_asm
+mbed_critical.c:177:10:core_util_atomic_incr_u32	0	static,ignoring_inline_asm
+mbed_critical.c:187:9:core_util_atomic_decr_u8	0	static,ignoring_inline_asm
+mbed_critical.c:196:10:core_util_atomic_decr_u16	0	static,ignoring_inline_asm
+mbed_critical.c:205:10:core_util_atomic_decr_u32	0	static,ignoring_inline_asm
+mbed_critical.c:333:6:core_util_atomic_cas_ptr	4	static,ignoring_inline_asm
+mbed_critical.c:341:7:core_util_atomic_incr_ptr	0	static,ignoring_inline_asm
+mbed_critical.c:346:7:core_util_atomic_decr_ptr	0	static,ignoring_inline_asm

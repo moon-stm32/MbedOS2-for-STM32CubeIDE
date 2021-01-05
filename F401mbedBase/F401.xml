@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cdtprojectproperties>
+<section name="org.eclipse.cdt.internal.ui.wizards.settingswizards.IncludePaths">
+<language name="s,S">
+<includepath>usr/src/mbed-sdk</includepath>
+<includepath>cmsis</includepath>
+<includepath>cmsis/TARGET_CORTEX_M</includepath>
+<includepath>drivers</includepath>
+<includepath>hal</includepath>
+<includepath>hal/storage_abstraction</includepath>
+<includepath>platform</includepath>
+<includepath>targets/TARGET_STM</includepath>
+<includepath>targets/TARGET_STM/TARGET_STM32F4</includepath>
+<includepath>targets/TARGET_STM/TARGET_STM32F4/TARGET_STM32F401xE</includepath>
+<includepath>targets/TARGET_STM/TARGET_STM32F4/TARGET_STM32F401xE/TARGET_NUCLEO_F401RE</includepath>
+<includepath>targets/TARGET_STM/TARGET_STM32F4/TARGET_STM32F401xE/device</includepath>
+<includepath>targets/TARGET_STM/TARGET_STM32F4/device</includepath>
+<includepath workspace_path="true">/F401mbedBase/mbed-dev</includepath>
+
+</language>
+<language name="C Source File">
+<includepath workspace_path="true">/F401mbedBase/mbed-dev</includepath>
+<includepath workspace_path="true">/F401mbedBase/mbed-dev/cmsis</includepath>
+<includepath workspace_path="true">/F401mbedBase/mbed-dev/drivers</includepath>
+<includepath workspace_path="true">/F401mbedBase/mbed-dev/hal</includepath>
+<includepath workspace_path="true">/F401mbedBase/mbed-dev/cmsis/TARGET_CORTEX_M</includepath>
+<includepath workspace_path="true">/F401mbedBase/mbed-dev/hal/storage_abstraction</includepath>
+<includepath workspace_path="true">/F401mbedBase/mbed-dev/platform</includepath>
+<includepath workspace_path="true">/F401mbedBase/mbed-dev/targets/TARGET_STM</includepath>
+<includepath workspace_path="true">/F401mbedBase/mbed-dev/targets/TARGET_STM/TARGET_STM32F4</includepath>
+<includepath workspace_path="true">/F401mbedBase/mbed-dev/targets/TARGET_STM/TARGET_STM32F4/TARGET_STM32F401xE</includepath>
+<includepath workspace_path="true">/F401mbedBase/mbed-dev/targets/TARGET_STM/TARGET_STM32F4/TARGET_STM32F401xE/TARGET_NUCLEO_F401RE</includepath>
+<includepath workspace_path="true">/F401mbedBase/mbed-dev/targets/TARGET_STM/TARGET_STM32F4/TARGET_STM32F401xE/device</includepath>
+<includepath workspace_path="true">/F401mbedBase/mbed-dev/targets/TARGET_STM/TARGET_STM32F4/device</includepath>
+<includepath workspace_path="true">/F401mbedBase/Core/Inc</includepath>
+
+</language>
+<language name="C++ Source File">
+<includepath>usr/src/mbed-sdk</includepath>
+<includepath workspace_path="true">/F401mbedBase/mbed-dev</includepath>
+<includepath workspace_path="true">/F401mbedBase/mbed-dev/drivers</includepath>
+<includepath workspace_path="true">/F401mbedBase/mbed-dev/hal</includepath>
+<includepath workspace_path="true">/F401mbedBase/mbed-dev/hal/storage_abstraction</includepath>
+<includepath workspace_path="true">/F401mbedBase/mbed-dev/platform</includepath>
+<includepath workspace_path="true">/F401mbedBase/mbed-dev/targets/TARGET_STM</includepath>
+<includepath workspace_path="true">/F401mbedBase/mbed-dev/targets/TARGET_STM/TARGET_STM32F4</includepath>
+<includepath workspace_path="true">/F401mbedBase/mbed-dev/targets/TARGET_STM/TARGET_STM32F4/TARGET_STM32F401xE</includepath>
+<includepath workspace_path="true">/F401mbedBase/mbed-dev/targets/TARGET_STM/TARGET_STM32F4/TARGET_STM32F401xE/TARGET_NUCLEO_F401RE</includepath>
+<includepath workspace_path="true">/F401mbedBase/mbed-dev/targets/TARGET_STM/TARGET_STM32F4/TARGET_STM32F401xE/device</includepath>
+<includepath workspace_path="true">/F401mbedBase/mbed-dev/targets/TARGET_STM/TARGET_STM32F4/device</includepath>
+<includepath workspace_path="true">/F401mbedBase/mbed-dev/cmsis</includepath>
+<includepath workspace_path="true">/F401mbedBase/mbed-dev/cmsis/TARGET_CORTEX_M</includepath>
+<includepath workspace_path="true">/F401mbedBase/Core/Inc</includepath>
+
+</language>
+<language name="Object File">
+
+</language>
+</section>
+<section name="org.eclipse.cdt.internal.ui.wizards.settingswizards.Macros">
+<language name="s,S">
+
+</language>
+<language name="C Source File">
+<macro>
+<name>DEVICE_SERIAL_FC</name><value>1</value>
+</macro>
+<macro>
+<name>DEVICE_PORTINOUT</name><value>1</value>
+</macro>
+<macro>
+<name>DEVICE_RTC</name><value>1</value>
+</macro>
+<macro>
+<name>DEVICE_SERIAL_ASYNCH</name><value>1</value>
+</macro>
+<macro>
+<name>DEVICE_I2C_ASYNCH</name><value>1</value>
+</macro>
+<macro>
+<name>DEVICE_SPISLAVE</name><value>1</value>
+</macro>
+<macro>
+<name>DEVICE_PWMOUT</name><value>1</value>
+</macro>
+<macro>
+<name>TARGET_RTOS_M4_M7</name><value/>
+</macro>
+<macro>
+<name>DEVICE_SLEEP</name><value>1</value>
+</macro>
+<macro>
+<name>TARGET_FF_ARDUINO</name><value/>
+</macro>
+<macro>
+<name>TOOLCHAIN_GCC_ARM</name><value/>
+</macro>
+<macro>
+<name>DEVICE_SPI_ASYNCH</name><value>1</value>
+</macro>
+<macro>
+<name>DEVICE_SERIAL</name><value>1</value>
+</macro>
+<macro>
+<name>TARGET_M4</name><value/>
+</macro>
+<macro>
+<name>__CORTEX_M4</name><value/>
+</macro>
+<macro>
+<name>__MBED__</name><value>1</value>
+</macro>
+<macro>
+<name>DEVICE_FLASH</name><value>1</value>
+</macro>
+<macro>
+<name>MBED_BUILD_TIMESTAMP</name><value>1580513127.6982965</value>
+</macro>
+<macro>
+<name>DEVICE_USTICKER</name><value>1</value>
+</macro>
+<macro>
+<name>__FPU_PRESENT</name><value>1</value>
+</macro>
+<macro>
+<name>TARGET_LIKE_MBED</name><value/>
+</macro>
+<macro>
+<name>TARGET_NAME</name><value>NUCLEO_F401RE</value>
+</macro>
+<macro>
+<name>DEVICE_PORTOUT</name><value>1</value>
+</macro>
+<macro>
+<name>TARGET_STM32F401xE</name><value/>
+</macro>
+<macro>
+<name>DEVICE_INTERRUPTIN</name><value>1</value>
+</macro>
+<macro>
+<name>TARGET_STM32F4</name><value/>
+</macro>
+<macro>
+<name>TARGET_LIKE_CORTEX_M4</name><value/>
+</macro>
+<macro>
+<name>TARGET_CORTEX_M</name><value/>
+</macro>
+<macro>
+<name>TOOLCHAIN_GCC</name><value/>
+</macro>
+<macro>
+<name>TARGET_NUCLEO_F401RE</name><value/>
+</macro>
+<macro>
+<name>__MBED_CMSIS_RTOS_CM</name><value/>
+</macro>
+<macro>
+<name>DEVICE_ANALOGIN</name><value>1</value>
+</macro>
+<macro>
+<name>TARGET_STM32F401RE</name><value/>
+</macro>
+<macro>
+<name>DEVICE_LPTICKER</name><value>1</value>
+</macro>
+<macro>
+<name>__CMSIS_RTOS</name><value/>
+</macro>
+<macro>
+<name>TRANSACTION_QUEUE_SIZE_SPI</name><value>2</value>
+</macro>
+<macro>
+<name>DEVICE_STDIO_MESSAGES</name><value>1</value>
+</macro>
+<macro>
+<name>TARGET_STM</name><value/>
+</macro>
+<macro>
+<name>DEVICE_SPI</name><value>1</value>
+</macro>
+<macro>
+<name>ARM_MATH_CM4</name><value/>
+</macro>
+<macro>
+<name>USB_STM_HAL</name><value/>
+</macro>
+<macro>
+<name>DEVICE_PORTIN</name><value>1</value>
+</macro>
+<macro>
+<name>TARGET_CORTEX</name><value/>
+</macro>
+<macro>
+<name>USBHOST_OTHER</name><value/>
+</macro>
+<macro>
+<name>TARGET_FF_MORPHO</name><value/>
+</macro>
+<macro>
+<name>DEVICE_I2CSLAVE</name><value>1</value>
+</macro>
+<macro>
+<name>TARGET_FAMILY_STM32</name><value/>
+</macro>
+<macro>
+<name>TARGET_RELEASE</name><value/>
+</macro>
+<macro>
+<name>DEVICE_I2C</name><value>1</value>
+</macro>
+<macro>
+<name>MBED_DEBUG</name><value/>
+</macro>
+<macro>
+<name>MBED_TRAP_ERRORS_ENABLED</name><value>1</value>
+</macro>
+<macro>
+<name>NDEBUG</name><value/>
+</macro>
+<macro>
+<name>USE_HAL_DRIVER</name><value/>
+</macro>
+<macro>
+<name>STM32F401xE</name><value/>
+</macro>
+<macro>
+<name>DEBUG</name><value/>
+</macro>
+
+</language>
+<language name="C++ Source File">
+<macro>
+<name>DEVICE_SERIAL_FC</name><value>1</value>
+</macro>
+<macro>
+<name>DEVICE_PORTINOUT</name><value>1</value>
+</macro>
+<macro>
+<name>DEVICE_RTC</name><value>1</value>
+</macro>
+<macro>
+<name>DEVICE_SERIAL_ASYNCH</name><value>1</value>
+</macro>
+<macro>
+<name>DEVICE_I2C_ASYNCH</name><value>1</value>
+</macro>
+<macro>
+<name>DEVICE_SPISLAVE</name><value>1</value>
+</macro>
+<macro>
+<name>DEVICE_PWMOUT</name><value>1</value>
+</macro>
+<macro>
+<name>TARGET_RTOS_M4_M7</name><value/>
+</macro>
+<macro>
+<name>DEVICE_SLEEP</name><value>1</value>
+</macro>
+<macro>
+<name>TARGET_FF_ARDUINO</name><value/>
+</macro>
+<macro>
+<name>TOOLCHAIN_GCC_ARM</name><value/>
+</macro>
+<macro>
+<name>DEVICE_SPI_ASYNCH</name><value>1</value>
+</macro>
+<macro>
+<name>DEVICE_SERIAL</name><value>1</value>
+</macro>
+<macro>
+<name>TARGET_M4</name><value/>
+</macro>
+<macro>
+<name>__CORTEX_M4</name><value/>
+</macro>
+<macro>
+<name>__MBED__</name><value>1</value>
+</macro>
+<macro>
+<name>DEVICE_FLASH</name><value>1</value>
+</macro>
+<macro>
+<name>MBED_BUILD_TIMESTAMP</name><value>1580513127.6982965</value>
+</macro>
+<macro>
+<name>DEVICE_USTICKER</name><value>1</value>
+</macro>
+<macro>
+<name>__FPU_PRESENT</name><value>1</value>
+</macro>
+<macro>
+<name>TARGET_LIKE_MBED</name><value/>
+</macro>
+<macro>
+<name>TARGET_NAME</name><value>NUCLEO_F401RE</value>
+</macro>
+<macro>
+<name>DEVICE_PORTOUT</name><value>1</value>
+</macro>
+<macro>
+<name>TARGET_STM32F401xE</name><value/>
+</macro>
+<macro>
+<name>DEVICE_INTERRUPTIN</name><value>1</value>
+</macro>
+<macro>
+<name>TARGET_STM32F4</name><value/>
+</macro>
+<macro>
+<name>TARGET_LIKE_CORTEX_M4</name><value/>
+</macro>
+<macro>
+<name>TARGET_CORTEX_M</name><value/>
+</macro>
+<macro>
+<name>TOOLCHAIN_GCC</name><value/>
+</macro>
+<macro>
+<name>TARGET_NUCLEO_F401RE</name><value/>
+</macro>
+<macro>
+<name>__MBED_CMSIS_RTOS_CM</name><value/>
+</macro>
+<macro>
+<name>DEVICE_ANALOGIN</name><value>1</value>
+</macro>
+<macro>
+<name>TARGET_STM32F401RE</name><value/>
+</macro>
+<macro>
+<name>DEVICE_LPTICKER</name><value>1</value>
+</macro>
+<macro>
+<name>__CMSIS_RTOS</name><value/>
+</macro>
+<macro>
+<name>TRANSACTION_QUEUE_SIZE_SPI</name><value>2</value>
+</macro>
+<macro>
+<name>DEVICE_STDIO_MESSAGES</name><value>1</value>
+</macro>
+<macro>
+<name>TARGET_STM</name><value/>
+</macro>
+<macro>
+<name>DEVICE_SPI</name><value>1</value>
+</macro>
+<macro>
+<name>ARM_MATH_CM4</name><value/>
+</macro>
+<macro>
+<name>USB_STM_HAL</name><value/>
+</macro>
+<macro>
+<name>DEVICE_PORTIN</name><value>1</value>
+</macro>
+<macro>
+<name>TARGET_CORTEX</name><value/>
+</macro>
+<macro>
+<name>USBHOST_OTHER</name><value/>
+</macro>
+<macro>
+<name>TARGET_FF_MORPHO</name><value/>
+</macro>
+<macro>
+<name>DEVICE_I2CSLAVE</name><value>1</value>
+</macro>
+<macro>
+<name>TARGET_FAMILY_STM32</name><value/>
+</macro>
+<macro>
+<name>TARGET_RELEASE</name><value/>
+</macro>
+<macro>
+<name>DEVICE_I2C</name><value>1</value>
+</macro>
+<macro>
+<name>MBED_DEBUG</name><value/>
+</macro>
+<macro>
+<name>MBED_TRAP_ERRORS_ENABLED</name><value>1</value>
+</macro>
+<macro>
+<name>NDEBUG</name><value/>
+</macro>
+<macro>
+<name>USE_HAL_DRIVER</name><value/>
+</macro>
+<macro>
+<name>STM32F401xE</name><value/>
+</macro>
+<macro>
+<name>DEBUG</name><value/>
+</macro>
+
+</language>
+<language name="Object File">
+
+</language>
+</section>
+</cdtprojectproperties>

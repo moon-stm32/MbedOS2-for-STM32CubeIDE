@@ -1,0 +1,4 @@
+mbed_critical_section_api.c:26:13:are_interrupts_enabled	16	static,ignoring_inline_asm
+mbed_critical_section_api.c:36:16:hal_critical_section_enter	16	static,ignoring_inline_asm
+mbed_critical_section_api.c:50:16:hal_critical_section_exit	4	static,ignoring_inline_asm
+mbed_critical_section_api.c:64:16:hal_in_critical_section	4	static

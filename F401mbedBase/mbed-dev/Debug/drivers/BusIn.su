@@ -1,0 +1,22 @@
+gpio_object.h:71:19:int gpio_read(gpio_t*)	8	static
+DigitalIn.h:58:5:mbed::DigitalIn::DigitalIn(PinName)	16	static
+DigitalIn.h:80:9:int mbed::DigitalIn::read()	16	static
+DigitalIn.h:90:10:void mbed::DigitalIn::mode(PinMode)	16	static
+PlatformMutex.h:36:5:PlatformMutex::PlatformMutex()	16	static
+PlatformMutex.h:41:5:PlatformMutex::~PlatformMutex()	16	static
+PlatformMutex.h:46:10:void PlatformMutex::lock()	8	static
+PlatformMutex.h:51:10:void PlatformMutex::unlock()	8	static
+BusIn.cpp:21:1:mbed::BusIn::BusIn(PinName, PinName, PinName, PinName, PinName, PinName, PinName, PinName, PinName, PinName, PinName, PinName, PinName, PinName, PinName, PinName)	64	static
+BusIn.cpp:35:1:mbed::BusIn::BusIn(PinName*)	24	static
+BusIn.cpp:47:1:mbed::BusIn::~BusIn()	24	static
+BusIn.cpp:47:1:virtual mbed::BusIn::~BusIn()	16	static
+BusIn.cpp:57:5:int mbed::BusIn::read()	24	static
+BusIn.cpp:70:6:void mbed::BusIn::mode(PinMode)	24	static
+BusIn.cpp:81:6:virtual void mbed::BusIn::lock()	16	static
+BusIn.cpp:86:6:virtual void mbed::BusIn::unlock()	16	static
+BusIn.cpp:91:1:mbed::BusIn::operator int()	16	static
+BusIn.cpp:97:12:mbed::DigitalIn& mbed::BusIn::operator[](int)	8	static
+NonCopyable.h:155:5:mbed::NonCopyable<T>::NonCopyable() [with T = PlatformMutex]	8	static
+NonCopyable.h:159:5:mbed::NonCopyable<T>::~NonCopyable() [with T = PlatformMutex]	8	static
+NonCopyable.h:155:5:mbed::NonCopyable<T>::NonCopyable() [with T = mbed::BusIn]	8	static
+NonCopyable.h:159:5:mbed::NonCopyable<T>::~NonCopyable() [with T = mbed::BusIn]	8	static

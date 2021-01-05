@@ -1,0 +1,14 @@
+stm32f4xx_ll_usart.h:450:26:LL_USART_IsEnabled	16	static
+stm32f4xx_ll_usart.h:1818:26:LL_USART_IsActiveFlag_TC	16	static
+mbed_debug.h:40:20:debug	4	static
+serial_api.c:50:6:serial_init	48	static
+serial_api.c:208:6:serial_free	24	static
+serial_api.c:340:6:serial_baud	24	static
+serial_api.c:408:6:serial_format	32	static
+serial_api.c:470:5:serial_readable	32	static
+serial_api.c:484:5:serial_writable	24	static
+serial_api.c:493:6:serial_pinout_tx	16	static
+serial_api.c:498:6:serial_break_clear	16	static
+serial_api.c:507:19:init_uart	24	static
+serial_api.c:551:8:get_uart_index	24	static
+serial_api.c:667:5:serial_is_tx_ongoing	16	static

@@ -1,0 +1,13 @@
+gpio_object.h:58:20:void gpio_write(gpio_t*, int)	16	static
+gpio_object.h:71:19:int gpio_read(gpio_t*)	16	static
+DigitalOut.h:53:5:mbed::DigitalOut::DigitalOut(PinName)	16	static
+DigitalOut.h:75:10:void mbed::DigitalOut::write(int)	16	static
+DigitalOut.h:87:9:int mbed::DigitalOut::read()	16	static
+DigitalOut.h:108:17:mbed::DigitalOut& mbed::DigitalOut::operator=(int)	16	static
+DigitalOut.h:129:5:mbed::DigitalOut::operator int()	16	static
+main.cpp:65:6:void myFunc()	40	static
+main.cpp:84:5:int main()	560	static
+main.cpp:223:6:void SystemClock_Config()	88	static
+main.cpp:267:13:void MX_USART2_UART_Init()	8	static
+main.cpp:300:13:void MX_GPIO_Init()	48	static
+main.cpp:336:6:void Error_Handler()	4	static

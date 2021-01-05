@@ -1,0 +1,3 @@
+mbed_critical_section_api.c:36:16:hal_critical_section_enter	0	static,ignoring_inline_asm
+mbed_critical_section_api.c:50:16:hal_critical_section_exit	0	static,ignoring_inline_asm
+mbed_critical_section_api.c:64:16:hal_in_critical_section	0	static

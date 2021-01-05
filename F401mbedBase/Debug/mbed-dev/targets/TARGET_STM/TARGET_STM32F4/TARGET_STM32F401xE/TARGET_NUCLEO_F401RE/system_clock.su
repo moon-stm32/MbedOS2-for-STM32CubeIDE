@@ -1,0 +1,2 @@
+system_clock.c:64:6:SystemInit	4	static
+system_clock.c:111:6:SetSysClock	8	static

@@ -1,0 +1,2 @@
+sleep.c:148:6:hal_sleep	8	static
+sleep.c:162:6:hal_deepsleep	64	static

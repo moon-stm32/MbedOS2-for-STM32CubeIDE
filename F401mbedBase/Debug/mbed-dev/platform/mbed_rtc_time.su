@@ -1,0 +1,12 @@
+new:168:14:void* operator new(std::size_t, void*)	16	static
+SingletonPtr.h:43:20:void singleton_lock()	4	static
+SingletonPtr.h:56:20:void singleton_unlock()	4	static
+PlatformMutex.h:36:5:PlatformMutex::PlatformMutex()	16	static
+PlatformMutex.h:46:10:void PlatformMutex::lock()	16	static
+PlatformMutex.h:51:10:void PlatformMutex::unlock()	16	static
+mbed_rtc_time.cpp:80:8:time_t time(time_t*)	32	static
+mbed_rtc_time.cpp:103:6:void set_time(time_t)	16	static
+mbed_rtc_time.cpp:115:6:void attach_rtc(time_t (*)(), void (*)(time_t), void (*)(), int (*)())	24	static
+NonCopyable.h:155:5:mbed::NonCopyable<T>::NonCopyable() [with T = PlatformMutex]	16	static
+SingletonPtr.h:103:8:T* SingletonPtr<T>::operator->() [with T = PlatformMutex]	16	static
+SingletonPtr.h:83:8:T* SingletonPtr<T>::get() [with T = PlatformMutex]	24	static

@@ -1,0 +1,8 @@
+flash_api.c:42:9:flash_init	0	static
+flash_api.c:47:9:flash_free	0	static
+flash_api.c:73:9:flash_erase_sector	24	static
+flash_api.c:106:9:flash_program_page	16	static
+flash_api.c:146:10:flash_get_sector_size	0	static
+flash_api.c:155:10:flash_get_page_size	0	static
+flash_api.c:161:10:flash_get_start_address	0	static
+flash_api.c:165:10:flash_get_size	0	static

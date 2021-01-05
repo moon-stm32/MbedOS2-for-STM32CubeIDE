@@ -1,0 +1,4 @@
+hal_tick_overrides.c:35:19:HAL_InitTick	16	static
+hal_tick_overrides.c:45:10:HAL_GetTick	16	static
+hal_tick_overrides.c:71:6:HAL_SuspendTick	4	static
+hal_tick_overrides.c:76:6:HAL_ResumeTick	4	static

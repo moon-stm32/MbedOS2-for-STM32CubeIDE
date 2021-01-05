@@ -1,0 +1,8 @@
+gpio_object.h:58:20:gpio_write	16	static
+mbed_gpio.c:18:20:_gpio_init_in	16	static
+mbed_gpio.c:27:20:_gpio_init_out	24	static
+mbed_gpio.c:37:6:gpio_init_in	16	static
+mbed_gpio.c:42:6:gpio_init_in_ex	16	static
+mbed_gpio.c:47:6:gpio_init_out	16	static
+mbed_gpio.c:52:6:gpio_init_out_ex	24	static
+mbed_gpio.c:57:6:gpio_init_inout	16	static

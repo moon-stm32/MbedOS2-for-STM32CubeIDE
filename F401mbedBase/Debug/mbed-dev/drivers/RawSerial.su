@@ -1,0 +1,11 @@
+RawSerial.cpp:28:1:mbed::RawSerial::RawSerial(PinName, PinName, int)	24	static
+RawSerial.cpp:33:5:int mbed::RawSerial::getc()	24	static
+RawSerial.cpp:41:5:int mbed::RawSerial::putc(int)	24	static
+RawSerial.cpp:49:5:int mbed::RawSerial::puts(const char*)	16	static
+RawSerial.cpp:63:5:)	156	static
+RawSerial.cpp:89:6:virtual void mbed::RawSerial::lock()	16	static
+RawSerial.cpp:96:6:virtual void mbed::RawSerial::unlock()	16	static
+NonCopyable.h:155:5:mbed::NonCopyable<T>::NonCopyable() [with T = mbed::RawSerial]	16	static
+NonCopyable.h:159:5:mbed::NonCopyable<T>::~NonCopyable() [with T = mbed::RawSerial]	16	static
+RawSerial.h:53:7:mbed::RawSerial::~RawSerial()	16	static
+RawSerial.h:53:7:virtual mbed::RawSerial::~RawSerial()	16	static

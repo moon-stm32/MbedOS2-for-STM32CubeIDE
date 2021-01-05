@@ -1,0 +1,23 @@
+PlatformMutex.h:36:5:PlatformMutex::PlatformMutex()	16	static
+PlatformMutex.h:41:5:PlatformMutex::~PlatformMutex()	16	static
+PlatformMutex.h:46:10:void PlatformMutex::lock()	16	static
+PlatformMutex.h:51:10:void PlatformMutex::unlock()	16	static
+FileHandle.h:153:19:virtual off_t mbed::FileHandle::lseek(off_t, int)	24	static
+FileHandle.h:167:17:virtual int mbed::FileHandle::fsync()	16	static
+FileHandle.h:179:19:virtual off_t mbed::FileHandle::flen()	16	static
+FileHandle.h:193:17:virtual int mbed::FileHandle::set_blocking(bool)	16	static
+FileHandle.h:202:18:virtual bool mbed::FileHandle::is_blocking() const	16	static
+FileHandle.h:217:19:virtual short int mbed::FileHandle::poll(short int) const	16	static
+FileHandle.h:262:18:virtual void mbed::FileHandle::sigio(mbed::Callback<void()>)	16	static
+Serial.cpp:23:1:mbed::Serial::Serial(PinName, PinName, const char*, int)	24	static
+Serial.cpp:27:1:mbed::Serial::Serial(PinName, PinName, int)	24	static
+Serial.cpp:31:5:virtual int mbed::Serial::_getc()	16	static
+Serial.cpp:37:5:virtual int mbed::Serial::_putc(int)	16	static
+Serial.cpp:43:6:virtual void mbed::Serial::lock()	16	static
+Serial.cpp:48:6:virtual void mbed::Serial::unlock()	16	static
+NonCopyable.h:155:5:mbed::NonCopyable<T>::NonCopyable() [with T = PlatformMutex]	16	static
+NonCopyable.h:159:5:mbed::NonCopyable<T>::~NonCopyable() [with T = PlatformMutex]	16	static
+NonCopyable.h:155:5:mbed::NonCopyable<T>::NonCopyable() [with T = mbed::Serial]	16	static
+NonCopyable.h:159:5:mbed::NonCopyable<T>::~NonCopyable() [with T = mbed::Serial]	16	static
+Serial.h:53:7:mbed::Serial::~Serial()	16	static
+Serial.h:53:7:virtual mbed::Serial::~Serial()	16	static

@@ -1,0 +1,71 @@
+PlatformMutex.h:36:5:PlatformMutex::PlatformMutex()	16	static
+PlatformMutex.h:46:10:void PlatformMutex::lock()	8	static
+PlatformMutex.h:51:10:void PlatformMutex::unlock()	8	static
+new:168:14:void* operator new(std::size_t, void*)	8	static
+SingletonPtr.h:43:20:void singleton_lock()	0	static
+SingletonPtr.h:56:20:void singleton_unlock()	0	static
+SPI.h:276:13:mbed::SPI::~SPI()	16	static
+SPI.h:276:13:virtual mbed::SPI::~SPI()	16	static
+SPI.cpp:31:1:mbed::SPI::SPI(PinName, PinName, PinName, PinName)	32	static
+SPI.cpp:49:6:void mbed::SPI::format(int, int)	24	static
+SPI.cpp:65:6:void mbed::SPI::frequency(int)	16	static
+SPI.cpp:84:6:void mbed::SPI::aquire()	16	static
+SPI.cpp:96:6:void mbed::SPI::_acquire()	16	static
+SPI.cpp:105:5:virtual int mbed::SPI::write(int)	24	static
+SPI.cpp:114:5:virtual int mbed::SPI::write(const char*, int, char*, int)	40	static
+SPI.cpp:123:6:virtual void mbed::SPI::lock()	16	static
+SPI.cpp:128:6:virtual void mbed::SPI::unlock()	16	static
+SPI.cpp:133:6:void mbed::SPI::set_default_write_value(char)	16	static
+SPI.cpp:142:5:int mbed::SPI::transfer(const void*, int, void*, int, unsigned char, const event_callback_t&, int)	40	static
+SPI.cpp:151:6:void mbed::SPI::abort_transfer()	16	static
+SPI.cpp:161:6:void mbed::SPI::clear_transfer_buffer()	16	static
+SPI.cpp:168:6:void mbed::SPI::abort_all_transfers()	16	static
+SPI.cpp:174:5:int mbed::SPI::set_dma_usage(DMAUsage)	16	static
+Transaction.h:40:3:mbed::transaction_t::transaction_t()	16	static
+Transaction.h:40:3:mbed::transaction_t::~transaction_t()	16	static
+SPI.cpp:183:5:int mbed::SPI::queue_transfer(const void*, int, void*, int, unsigned char, const event_callback_t&, int)	112	static
+SPI.cpp:212:6:void mbed::SPI::start_transfer(const void*, int, void*, int, unsigned char, const event_callback_t&, int)	64	static
+SPI.cpp:221:6:void mbed::SPI::lock_deep_sleep()	16	static
+SPI.cpp:229:6:void mbed::SPI::unlock_deep_sleep()	16	static
+SPI.cpp:239:6:void mbed::SPI::start_transaction(mbed::transaction_t*)	40	static
+SPI.cpp:244:6:void mbed::SPI::dequeue_transaction()	72	static
+SPI.cpp:256:6:void mbed::SPI::irq_handler_asynch()	24	static
+NonCopyable.h:155:5:mbed::NonCopyable<T>::NonCopyable() [with T = PlatformMutex]	8	static
+NonCopyable.h:159:5:mbed::NonCopyable<T>::~NonCopyable() [with T = mbed::SPI]	8	static
+CThunk.h:102:5:CThunk<T>::~CThunk() [with T = mbed::SPI]	8	static
+Callback.h:904:5:mbed::Callback<R(A0)>::~Callback() [with R = void; A0 = int]	16	static
+CircularBuffer.h:67:5:mbed::CircularBuffer<T, BufferSize, CounterType>::CircularBuffer() [with T = mbed::Transaction<mbed::SPI>; long unsigned int BufferSize = 2; CounterType = long unsigned int]	24	static
+NonCopyable.h:155:5:mbed::NonCopyable<T>::NonCopyable() [with T = mbed::SPI]	8	static
+CThunk.h:92:12:CThunk<T>::CThunk(T*) [with T = mbed::SPI]	32	static
+Callback.h:706:5:mbed::Callback<R(A0)>::Callback(R (*)(A0)) [with R = void; A0 = int]	16	static
+SingletonPtr.h:103:8:T* SingletonPtr<T>::operator->() [with T = PlatformMutex]	16	static
+CircularBuffer.h:151:10:void mbed::CircularBuffer<T, BufferSize, CounterType>::reset() [with T = mbed::Transaction<mbed::SPI>; long unsigned int BufferSize = 2; CounterType = long unsigned int]	16	static
+Callback.h:1179:15:mbed::Callback<R(A0)>& mbed::Callback<R(A0)>::operator=(const mbed::Callback<R(A0)>&) [with R = void; A0 = int]	16	static
+Transaction.h:40:3:mbed::transaction_t::transaction_t(const mbed::transaction_t&)	16	static
+Transaction.h:49:5:mbed::Transaction<Class>::Transaction(Class*, const mbed::transaction_t&) [with Class = mbed::SPI]	24	static
+Transaction.h:57:5:mbed::Transaction<Class>::~Transaction() [with Class = mbed::SPI]	16	static
+CircularBuffer.h:140:10:bool mbed::CircularBuffer<T, BufferSize, CounterType>::full() const [with T = mbed::Transaction<mbed::SPI>; long unsigned int BufferSize = 2; CounterType = long unsigned int]	24	static
+Transaction.h:40:3:mbed::transaction_t& mbed::transaction_t::operator=(const mbed::transaction_t&)	16	static
+Transaction.h:47:7:mbed::Transaction<mbed::SPI>& mbed::Transaction<mbed::SPI>::operator=(const mbed::Transaction<mbed::SPI>&)	16	static
+CircularBuffer.h:90:10:void mbed::CircularBuffer<T, BufferSize, CounterType>::push(const T&) [with T = mbed::Transaction<mbed::SPI>; long unsigned int BufferSize = 2; CounterType = long unsigned int]	16	static
+CThunk.h:132:17:void CThunk<T>::callback(CThunk<T>::CCallbackSimple) [with T = mbed::SPI]	16	static
+CThunk.h:147:21:uint32_t CThunk<T>::entry() [with T = mbed::SPI]	8	static
+Transaction.h:53:5:mbed::Transaction<Class>::Transaction() [with Class = mbed::SPI]	16	static
+CircularBuffer.h:110:10:bool mbed::CircularBuffer<T, BufferSize, CounterType>::pop(T&) [with T = mbed::Transaction<mbed::SPI>; long unsigned int BufferSize = 2; CounterType = long unsigned int]	24	static
+Transaction.h:65:12:Class* mbed::Transaction<Class>::get_object() [with Class = mbed::SPI]	8	static
+Transaction.h:74:20:mbed::transaction_t* mbed::Transaction<Class>::get_transaction() [with Class = mbed::SPI]	8	static
+Callback.h:1206:5:mbed::Callback<R(A0)>::operator bool() const [with R = void; A0 = int]	8	static
+Callback.h:1191:7:R mbed::Callback<R(A0)>::call(A0) const [with R = void; A0 = int]	16	static
+CThunk.h:203:17:void CThunk<T>::init(T*, CThunk<T>::CCallback, void*) [with T = mbed::SPI]	16	static,ignoring_inline_asm
+Callback.h:1257:10:void mbed::Callback<R(A0)>::generate(const F&) [with F = void (*)(int); R = void; A0 = int]	16	static
+SingletonPtr.h:83:8:T* SingletonPtr<T>::get() [with T = PlatformMutex]	16	static
+Callback.h:718:5:mbed::Callback<R(A0)>::Callback(const mbed::Callback<R(A0)>&) [with R = void; A0 = int]	16	static
+CircularBuffer.h:128:10:bool mbed::CircularBuffer<T, BufferSize, CounterType>::empty() const [with T = mbed::Transaction<mbed::SPI>; long unsigned int BufferSize = 2; CounterType = long unsigned int]	24	static
+CThunk.h:194:17:static void CThunk<T>::trampoline(T*, void*, void (T::**)(void*)) [with T = mbed::SPI]	24	static
+Callback.h:1274:14:static R mbed::Callback<R(A0)>::function_call(const void*, A0) [with F = void (*)(int); R = void; A0 = int]	16	static
+Callback.h:1280:17:static void mbed::Callback<R(A0)>::function_move(void*, const void*) [with F = void (*)(int); R = void; A0 = int]	16	static
+Callback.h:1286:17:static void mbed::Callback<R(A0)>::function_dtor(void*) [with F = void (*)(int); R = void; A0 = int]	8	static
+SPI.cpp:273:1:void __static_initialization_and_destruction_0(int, int)	16	static
+CircularBuffer.h:81:5:mbed::CircularBuffer<T, BufferSize, CounterType>::~CircularBuffer() [with T = mbed::Transaction<mbed::SPI>; long unsigned int BufferSize = 2; CounterType = long unsigned int]	16	static
+SPI.cpp:273:1:cpp)	8	static
+SPI.cpp:273:1:cpp)	8	static

@@ -1,0 +1,11 @@
+us_ticker.c:129:6:timer_irq_handler	0	static
+us_ticker.c:27:22:us_ticker_get_info	0	static
+us_ticker.c:140:6:init_32bit_timer	48	static
+us_ticker.c:205:6:us_ticker_init	0	static
+us_ticker.c:211:10:us_ticker_read	0	static
+us_ticker.c:216:6:us_ticker_set_interrupt	0	static
+us_ticker.c:228:6:us_ticker_fire_interrupt	0	static
+us_ticker.c:235:6:us_ticker_disable_interrupt	0	static
+us_ticker.c:241:6:us_ticker_clear_interrupt	0	static
+us_ticker.c:246:6:save_timer_ctx	4	static
+us_ticker.c:253:6:restore_timer_ctx	4	static

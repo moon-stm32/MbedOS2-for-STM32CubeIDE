@@ -1,0 +1,9 @@
+mbed_sleep_manager.c:41:30:read_us	8	static
+mbed_sleep_manager.c:53:16:mbed_time_idle	12	static
+mbed_sleep_manager.c:58:16:mbed_uptime	16	static
+mbed_sleep_manager.c:63:16:mbed_time_sleep	8	static
+mbed_sleep_manager.c:68:16:mbed_time_deepsleep	8	static
+mbed_sleep_manager.c:159:6:sleep_manager_lock_deep_sleep_internal	16	static
+mbed_sleep_manager.c:170:6:sleep_manager_unlock_deep_sleep_internal	16	static
+mbed_sleep_manager.c:181:6:sleep_manager_can_deep_sleep	4	static
+mbed_sleep_manager.c:186:6:sleep_manager_sleep_auto	40	static

@@ -1,0 +1,18 @@
+new:168:14:void* operator new(std::size_t, void*)	16	static
+SingletonPtr.h:43:20:void singleton_lock()	4	static
+SingletonPtr.h:56:20:void singleton_unlock()	4	static
+PlatformMutex.h:36:5:PlatformMutex::PlatformMutex()	16	static
+PlatformMutex.h:46:10:void PlatformMutex::lock()	16	static
+PlatformMutex.h:51:10:void PlatformMutex::unlock()	16	static
+FileBase.cpp:25:1:mbed::FileBase::FileBase(const char*, mbed::PathType)	24	static
+FileBase.cpp:40:1:mbed::FileBase::~FileBase()	24	static
+FileBase.cpp:40:1:virtual mbed::FileBase::~FileBase()	16	static
+FileBase.cpp:63:11:static mbed::FileBase* mbed::FileBase::lookup(const char*, unsigned int)	24	static
+FileBase.cpp:79:11:static mbed::FileBase* mbed::FileBase::get(int)	24	static
+FileBase.cpp:97:13:const char* mbed::FileBase::getName()	16	static
+FileBase.cpp:103:10:mbed::PathType mbed::FileBase::getPathType()	16	static
+NonCopyable.h:155:5:mbed::NonCopyable<T>::NonCopyable() [with T = PlatformMutex]	16	static
+NonCopyable.h:155:5:mbed::NonCopyable<T>::NonCopyable() [with T = mbed::FileBase]	16	static
+NonCopyable.h:159:5:mbed::NonCopyable<T>::~NonCopyable() [with T = mbed::FileBase]	16	static
+SingletonPtr.h:103:8:T* SingletonPtr<T>::operator->() [with T = PlatformMutex]	16	static
+SingletonPtr.h:83:8:T* SingletonPtr<T>::get() [with T = PlatformMutex]	24	static

@@ -1,0 +1,4 @@
+mbed_application.c:59:6:mbed_start_application	24	static,ignoring_inline_asm
+mbed_application.c:76:13:powerdown_nvic	24	static
+mbed_application.c:101:13:powerdown_scb	24	static
+mbed_application.c:156:6:start_new_application	16	static,ignoring_inline_asm

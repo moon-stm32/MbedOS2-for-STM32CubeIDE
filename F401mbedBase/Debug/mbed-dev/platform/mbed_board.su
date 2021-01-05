@@ -1,0 +1,4 @@
+gpio_object.h:58:20:gpio_write	16	static
+mbed_board.c:29:11:mbed_die	48	static
+mbed_board.c:54:6:mbed_error_printf	16	static
+mbed_board.c:62:6:mbed_error_vfprintf	152	static

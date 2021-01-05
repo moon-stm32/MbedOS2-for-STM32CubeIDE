@@ -1,0 +1,28 @@
+gpio_object.h:71:19:int gpio_read(gpio_t*)	8	static
+new:168:14:void* operator new(std::size_t, void*)	8	static
+InterruptIn.cpp:26:1:mbed::InterruptIn::InterruptIn(PinName)	16	static
+InterruptIn.cpp:36:1:mbed::InterruptIn::InterruptIn(PinName, PinMode)	16	static
+InterruptIn.cpp:47:6:void mbed::InterruptIn::irq_init(PinName)	16	static
+InterruptIn.cpp:52:1:mbed::InterruptIn::~InterruptIn()	16	static
+InterruptIn.cpp:52:1:virtual mbed::InterruptIn::~InterruptIn()	16	static
+InterruptIn.cpp:58:5:int mbed::InterruptIn::read()	16	static
+InterruptIn.cpp:64:6:void mbed::InterruptIn::mode(PinMode)	16	static
+InterruptIn.cpp:71:6:void mbed::InterruptIn::rise(mbed::Callback<void()>)	32	static
+InterruptIn.cpp:84:6:void mbed::InterruptIn::fall(mbed::Callback<void()>)	32	static
+InterruptIn.cpp:97:6:static void mbed::InterruptIn::_irq_handler(uint32_t, gpio_irq_event)	24	static
+InterruptIn.cpp:116:6:void mbed::InterruptIn::enable_irq()	16	static
+InterruptIn.cpp:123:6:void mbed::InterruptIn::disable_irq()	16	static
+InterruptIn.cpp:130:1:mbed::InterruptIn::operator int()	16	static
+NonCopyable.h:155:5:mbed::NonCopyable<T>::NonCopyable() [with T = mbed::InterruptIn]	8	static
+NonCopyable.h:159:5:mbed::NonCopyable<T>::~NonCopyable() [with T = mbed::InterruptIn]	8	static
+Callback.h:82:5:mbed::Callback<R()>::Callback(R (*)()) [with R = void]	16	static
+Callback.h:280:5:mbed::Callback<R()>::~Callback() [with R = void]	16	static
+Callback.h:582:5:mbed::Callback<R()>::operator bool() const [with R = void]	8	static
+Callback.h:555:15:mbed::Callback<R()>& mbed::Callback<R()>::operator=(const mbed::Callback<R()>&) [with R = void]	16	static
+Callback.h:575:7:R mbed::Callback<R()>::operator()() const [with R = void]	16	static
+Callback.h:632:10:void mbed::Callback<R()>::generate(const F&) [with F = void (*)(); R = void]	16	static
+Callback.h:94:5:mbed::Callback<R()>::Callback(const mbed::Callback<R()>&) [with R = void]	16	static
+Callback.h:567:7:R mbed::Callback<R()>::call() const [with R = void]	16	static
+Callback.h:649:14:static R mbed::Callback<R()>::function_call(const void*) [with F = void (*)(); R = void]	16	static
+Callback.h:655:17:static void mbed::Callback<R()>::function_move(void*, const void*) [with F = void (*)(); R = void]	16	static
+Callback.h:661:17:static void mbed::Callback<R()>::function_dtor(void*) [with F = void (*)(); R = void]	8	static

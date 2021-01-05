@@ -1,0 +1,5 @@
+system_clock.c:143:9:SetSysClock_PLL_HSE.part.0	40	static
+system_clock.c:64:6:SystemInit	4	static
+system_clock.c:143:9:SetSysClock_PLL_HSE	72	static
+system_clock.c:198:9:SetSysClock_PLL_HSI	72	static
+system_clock.c:111:6:SetSysClock	8	static

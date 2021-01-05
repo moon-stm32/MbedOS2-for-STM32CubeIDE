@@ -1,0 +1,45 @@
+new:168:14:void* operator new(std::size_t, void*)	8	static
+SingletonPtr.h:43:20:void singleton_lock()	0	static
+SingletonPtr.h:56:20:void singleton_unlock()	0	static
+PlatformMutex.h:36:5:PlatformMutex::PlatformMutex()	16	static
+PlatformMutex.h:46:10:void PlatformMutex::lock()	8	static
+PlatformMutex.h:51:10:void PlatformMutex::unlock()	8	static
+I2C.h:154:13:mbed::I2C::~I2C()	16	static
+I2C.h:154:13:virtual mbed::I2C::~I2C()	16	static
+I2C.cpp:29:1:mbed::I2C::I2C(PinName, PinName)	16	static
+I2C.cpp:44:6:void mbed::I2C::frequency(int)	16	static
+I2C.cpp:57:6:void mbed::I2C::aquire()	16	static
+I2C.cpp:68:5:int mbed::I2C::write(int, const char*, int, bool)	40	static
+I2C.cpp:80:5:int mbed::I2C::write(int)	24	static
+I2C.cpp:89:5:int mbed::I2C::read(int, char*, int, bool)	40	static
+I2C.cpp:101:5:int mbed::I2C::read(int)	24	static
+I2C.cpp:114:6:void mbed::I2C::start()	16	static
+I2C.cpp:121:6:void mbed::I2C::stop()	16	static
+I2C.cpp:128:6:virtual void mbed::I2C::lock()	16	static
+I2C.cpp:133:6:virtual void mbed::I2C::unlock()	16	static
+I2C.cpp:140:5:int mbed::I2C::transfer(int, const char*, int, char*, int, const event_callback_t&, int, bool)	88	static
+I2C.cpp:158:6:void mbed::I2C::abort_transfer()	16	static
+I2C.cpp:166:6:void mbed::I2C::irq_handler_asynch()	24	static
+I2C.cpp:178:6:void mbed::I2C::lock_deep_sleep()	16	static
+I2C.cpp:186:6:void mbed::I2C::unlock_deep_sleep()	16	static
+NonCopyable.h:155:5:mbed::NonCopyable<T>::NonCopyable() [with T = PlatformMutex]	8	static
+NonCopyable.h:159:5:mbed::NonCopyable<T>::~NonCopyable() [with T = mbed::I2C]	8	static
+Callback.h:904:5:mbed::Callback<R(A0)>::~Callback() [with R = void; A0 = int]	16	static
+CThunk.h:102:5:CThunk<T>::~CThunk() [with T = mbed::I2C]	8	static
+NonCopyable.h:155:5:mbed::NonCopyable<T>::NonCopyable() [with T = mbed::I2C]	8	static
+Callback.h:706:5:mbed::Callback<R(A0)>::Callback(R (*)(A0)) [with R = void; A0 = int]	16	static
+CThunk.h:92:12:CThunk<T>::CThunk(T*) [with T = mbed::I2C]	32	static
+SingletonPtr.h:103:8:T* SingletonPtr<T>::operator->() [with T = PlatformMutex]	16	static
+Callback.h:1179:15:mbed::Callback<R(A0)>& mbed::Callback<R(A0)>::operator=(const mbed::Callback<R(A0)>&) [with R = void; A0 = int]	16	static
+CThunk.h:132:17:void CThunk<T>::callback(CThunk<T>::CCallbackSimple) [with T = mbed::I2C]	16	static
+CThunk.h:147:21:uint32_t CThunk<T>::entry() [with T = mbed::I2C]	8	static
+Callback.h:1206:5:mbed::Callback<R(A0)>::operator bool() const [with R = void; A0 = int]	8	static
+Callback.h:1191:7:R mbed::Callback<R(A0)>::call(A0) const [with R = void; A0 = int]	16	static
+Callback.h:1257:10:void mbed::Callback<R(A0)>::generate(const F&) [with F = void (*)(int); R = void; A0 = int]	16	static
+CThunk.h:203:17:void CThunk<T>::init(T*, CThunk<T>::CCallback, void*) [with T = mbed::I2C]	16	static,ignoring_inline_asm
+SingletonPtr.h:83:8:T* SingletonPtr<T>::get() [with T = PlatformMutex]	16	static
+Callback.h:718:5:mbed::Callback<R(A0)>::Callback(const mbed::Callback<R(A0)>&) [with R = void; A0 = int]	16	static
+Callback.h:1274:14:static R mbed::Callback<R(A0)>::function_call(const void*, A0) [with F = void (*)(int); R = void; A0 = int]	16	static
+Callback.h:1280:17:static void mbed::Callback<R(A0)>::function_move(void*, const void*) [with F = void (*)(int); R = void; A0 = int]	16	static
+Callback.h:1286:17:static void mbed::Callback<R(A0)>::function_dtor(void*) [with F = void (*)(int); R = void; A0 = int]	8	static
+CThunk.h:194:17:static void CThunk<T>::trampoline(T*, void*, void (T::**)(void*)) [with T = mbed::I2C]	24	static

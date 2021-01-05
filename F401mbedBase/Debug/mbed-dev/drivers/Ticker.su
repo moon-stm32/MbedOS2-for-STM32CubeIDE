@@ -1,0 +1,18 @@
+new:168:14:void* operator new(std::size_t, void*)	16	static
+Ticker.h:149:13:mbed::Ticker::~Ticker()	16	static
+Ticker.h:149:13:virtual mbed::Ticker::~Ticker()	16	static
+Ticker.cpp:25:6:void mbed::Ticker::detach()	40	static
+Ticker.cpp:38:6:void mbed::Ticker::setup(us_timestamp_t)	40	static
+Ticker.cpp:47:6:virtual void mbed::Ticker::handler()	24	static
+NonCopyable.h:159:5:mbed::NonCopyable<T>::~NonCopyable() [with T = mbed::Ticker]	16	static
+Callback.h:82:5:mbed::Callback<R()>::Callback(R (*)()) [with R = void]	16	static
+Callback.h:280:5:mbed::Callback<R()>::~Callback() [with R = void]	16	static
+Callback.h:94:5:mbed::Callback<R()>::Callback(const mbed::Callback<R()>&) [with R = void]	16	static
+Callback.h:582:5:mbed::Callback<R()>::operator bool() const [with R = void]	16	static
+Callback.h:555:15:mbed::Callback<R()>& mbed::Callback<R()>::operator=(const mbed::Callback<R()>&) [with R = void]	16	static
+Callback.h:575:7:R mbed::Callback<R()>::operator()() const [with R = void]	16	static
+Callback.h:632:10:void mbed::Callback<R()>::generate(const F&) [with F = void (*)(); R = void]	16	static
+Callback.h:567:7:R mbed::Callback<R()>::call() const [with R = void]	16	static
+Callback.h:649:14:static R mbed::Callback<R()>::function_call(const void*) [with F = void (*)(); R = void]	16	static
+Callback.h:655:17:static void mbed::Callback<R()>::function_move(void*, const void*) [with F = void (*)(); R = void]	16	static
+Callback.h:661:17:static void mbed::Callback<R()>::function_dtor(void*) [with F = void (*)(); R = void]	16	static
